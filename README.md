@@ -43,10 +43,10 @@ Antes de iniciar, certifique-se de ter instalado:
 ## Endpoints
 A API expõe os seguintes endpoints:
 
-- `POST /todolist` - Criar uma nova tarefa
-- `GET /todolist` - Obter todas as tarefas
-- `PUT /todolist/{id}` - Editar uma tarefa
-- `DELETE /todolist/{id}` - Excluir uma tarefa
+- `POST /todolist/adicionar-tarefas` - Criar uma nova tarefa
+- `GET /todolist/listar-tarefas` - Obter todas as tarefas
+- `PUT /todolist/editar-tarefa/{id}` - Editar uma tarefa
+- `DELETE /todolist/deletar-tarefa/{id}` - Excluir uma tarefa
 
 ## Testes
 Para testar a API, você pode utilizar o arquivo `Web.http` no Visual Studio Code ou ferramentas como Postman e Swagger.
